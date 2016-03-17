@@ -1,0 +1,23 @@
+public class superstock{
+	public Stock s;
+	
+	superstock(int max){
+		s = new Stock(max);
+	}
+	
+	public void ajoutArticle(ArticlesEnStock a){
+		s.ajoutArticle(a);
+	}
+	
+	public ArticlesEnStock getArticleByPosition(int num){
+		return s.getArticleByPosition(num);
+	}
+	
+	public int nbReferences(){
+		return s.nbReferences();
+	}
+	
+	public String toString(){
+		return s.toString();
+	} 
+}

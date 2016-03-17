@@ -1,0 +1,4 @@
+public class superstock{
+	public Stock s;
+	
+}
